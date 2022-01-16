@@ -40,6 +40,26 @@
               <pattern>org.sonarqube.ws</pattern>
               <shadedPattern>me.redaalaoui.org.sonarqube.ws</shadedPattern>
             </relocation>
+            <relocation>
+              <pattern>com.google</pattern>
+              <shadedPattern>me.redaalaoui.org.sonarqube.ws.thirdparty.com.google</shadedPattern>
+            </relocation>
+            <relocation>
+              <pattern>google</pattern>
+              <shadedPattern>me.redaalaoui.org.sonarqube.ws.thirdparty.google</shadedPattern>
+            </relocation>
+            <relocation>
+              <pattern>okhttp3</pattern>
+              <shadedPattern>me.redaalaoui.org.sonarqube.ws.thirdparty.okhttp3</shadedPattern>
+            </relocation>
+            <relocation>
+              <pattern>okio</pattern>
+              <shadedPattern>me.redaalaoui.org.sonarqube.ws.thirdparty.okio</shadedPattern>
+            </relocation>
+            <relocation>
+              <pattern>org.apache</pattern>
+              <shadedPattern>me.redaalaoui.org.sonarqube.ws.thirdparty.org.apache</shadedPattern>
+            </relocation>
           </relocations>
           <createSourcesJar>true</createSourcesJar>
           <shadeSourcesContent>true</shadeSourcesContent>
