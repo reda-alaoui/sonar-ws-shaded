@@ -4,7 +4,7 @@
 
   <groupId>me.redaalaoui.sonar_ws</groupId>
   <artifactId>sonar-ws-shaded</artifactId>
-  <version>7.7.0</version>
+  <version>7.7.1-SNAPSHOT</version>
 
   <name>Shaded Sonar WS</name>
   <description>sonar-ws but shaded</description>
@@ -217,6 +217,6 @@
     <connection>scm:git:https://github.com/reda-alaoui/sonar-ws-shaded</connection>
     <developerConnection>scm:git:https://github.com/reda-alaoui/sonar-ws-shaded</developerConnection>
     <url>https://github.com/reda-alaoui/sonar-ws-shaded</url>
-    <tag>sonar-ws-shaded-7.7.0</tag>
+    <tag>HEAD</tag>
   </scm>
 </project>
