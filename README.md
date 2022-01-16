@@ -1,2 +1,1 @@
-# sonar-ws-shaded
-sonar-ws but shaded
+# sonar-ws but shaded
